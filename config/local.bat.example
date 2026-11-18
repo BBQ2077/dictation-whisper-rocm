@@ -1,0 +1,7 @@
+@echo off
+REM Copy to config\local.bat if your Python is not in .venv or on PATH.
+REM PY = pythonw.exe used by run.bat; DICTATION_PYTHON = python.exe used by run-console.bat and ui.py
+set "PY=C:\path\to\python\pythonw.exe"
+set "DICTATION_PYTHON=C:\path\to\python\python.exe"
+REM Optional: force a ROCm GPU target, e.g. RX 9070 (gfx1201) = 12000000
+REM set "HSA_OVERRIDE_GFX_VERSION=12000000"

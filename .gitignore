@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 引擎與模型（另外下載，見 README）
+bin/
+models/
+
+# 個人資料：辨識結果、錄音、紀錄、本機設定
+out/
+logs/
+local/
+config/ui.json
+config/speaker.txt
+config/local.bat
+tests/fixtures/*.wav
+
+# 本機捷徑（含絕對路徑）
+*.lnk
